@@ -46,6 +46,9 @@ document.querySelector("#btnThemNhanVien").onclick = function () {
     150,
     "Số giờ làm"
   );
+  if(!valid){
+    return;
+  };
   //Đưa dữ liệu nhân viên vào mãng
   arrNhanVien.push(nhanVien);
   console.log(arrNhanVien);
